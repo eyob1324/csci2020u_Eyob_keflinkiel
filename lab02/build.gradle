@@ -1,0 +1,15 @@
+plugins{
+    id 'java'
+    id 'application'
+}
+
+dependencies{
+implementation 'com.guicedee.services:commons-csv:1.1.0.8-SNAPSHOT-jre14'
+}
+
+repositories{
+    mavenCentral()
+}
+
+mainClassName = 'src.main.java.csci2020u.lab02.SimpleTest'
+
